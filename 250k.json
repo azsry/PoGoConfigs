@@ -1,0 +1,488 @@
+{
+  "AutoUpdate": false,
+  "TransferConfigAndAuthOnUpdate": true,
+  "DumpPokemonStats": true,
+  "AmountOfPokemonToDisplayOnStart": 10,
+  "StartupWelcomeDelay": false,
+  "TranslationLanguageCode": "en",
+  "WebSocketPort": 25565,
+  "Teleport": true,
+  "DefaultLatitude": 35.634756,
+  "DefaultLongitude": 139.879522,
+  "DefaultAltitude": 11.0,
+  "WalkingSpeedInKilometerPerHour": 60.0,
+  "MaxSpawnLocationOffset": 10,
+  "MaxTravelDistanceInMeters": 3000,
+  "UseGpxPathing": false,
+  "GpxFile": "GPXPath.GPX",
+  "DelayBetweenPlayerActions": 0,
+  "DelayPositionCheckState": 0,
+  "DelayPokestop": 0,
+  "DelayCatchPokemon": 0,
+  "DelayBetweenPokemonCatch": 0,
+  "DelayCatchNearbyPokemon": 0,
+  "DelayCatchLurePokemon": 0,
+  "DelayCatchIncensePokemon": 0,
+  "DelayTransferPokemon": 0,
+  "DelayDisplayPokemon": 0,
+  "DelayUseLuckyEgg": 0,
+  "DelaySoftbanRetry": 0,
+  "DelayRecyleItem": 0,
+  "DelaySnipePokemon": 0,
+  "MinDelayBetweenSnipes": 5000,
+  "UseEggIncubators": true,
+  "RenamePokemon": true,
+  "RenameOnlyAboveIv": false,
+  "RenameTemplate": "{1}_{0}",
+  "TransferDuplicatePokemon": true,
+  "PrioritizeIvOverCp": false,
+  "KeepMinCp": 2000,
+  "KeepMinIvPercentage": 90.0,
+  "KeepMinDuplicatePokemon": 1,
+  "KeepPokemonsThatCanEvolve": false,
+  "EvolveAllPokemonWithEnoughCandy": true,
+  "EvolveAllPokemonAboveIv": true,
+  "EvolveAboveIvValue": 10.0,
+  "UseLuckyEggsWhileEvolving": true,
+  "UseLuckyEggsMinPokemonAmount": 20,
+  "AutomaticallyLevelUpPokemon": false,
+  "LevelUpByCPorIv": "iv",
+  "UpgradePokemonCpMinimum": 1800.0,
+  "UpgradePokemonIvMinimum": 97.0,
+  "HumanizeThrows": false,
+  "ThrowAccuracyMin": 0.0,
+  "ThrowAccuracyMax": 0.0,
+  "ThrowSpinFrequency": 0.0,
+  "MaxPokeballsPerPokemon": 6,
+  "UseGreatBallAboveCp": 750,
+  "UseUltraBallAboveCp": 1000,
+  "UseMasterBallAboveCp": 1500,
+  "UsePokemonToNotCatchFilter": true,
+  "UseBerryMinCp": 0,
+  "UseBerryMinIv": 0.0,
+  "UseBerryBelowCatchProbability": 0.0,
+  "FavoriteMinIvPercentage": 0.0,
+  "AutoFavoritePokemon": false,
+  "TotalAmountOfPokeballsToKeep": 0,
+  "TotalAmountOfPotionsToKeep": 80,
+  "TotalAmountOfRevivesToKeep": 60,
+  "UseGreatBallAboveIv": 0,
+  "UseUltraBallAboveIv": 0,
+  "UseGreatBallBelowCatchProbability": 0.0,
+  "UseUltraBallBelowCatchProbability": 0.0,
+  "UseMasterBallBelowCatchProbability": 0.0,
+  "RecycleInventoryAtUsagePercentage": 0.0,
+  "SnipeAtPokestops": true,
+  "SnipeIgnoreUnknownIv": false,
+  "UseTransferIvForSnipe": false,
+  "MinPokeballsToSnipe": 10,
+  "MinPokeballsWhileSnipe": 0,
+  "UseSnipeLocationServer": true,
+  "SnipeLocationServer": "localhost",
+  "SnipeLocationServerPort": 25565,
+  "ItemRecycleFilter": [
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemPokeBall",
+      "Value": 75
+    },
+    {
+      "Key": "itemGreatBall",
+      "Value": 50
+    },
+    {
+      "Key": "itemUltraBall",
+      "Value": 100
+    },
+    {
+      "Key": "itemMasterBall",
+      "Value": 100
+    },
+    {
+      "Key": "itemPotion",
+      "Value": 0
+    },
+    {
+      "Key": "itemSuperPotion",
+      "Value": 10
+    },
+    {
+      "Key": "itemHyperPotion",
+      "Value": 40
+    },
+    {
+      "Key": "itemMaxPotion",
+      "Value": 75
+    },
+    {
+      "Key": "itemRevive",
+      "Value": 25
+    },
+    {
+      "Key": "itemMaxRevive",
+      "Value": 50
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemRazzBerry",
+      "Value": 50
+    },
+    {
+      "Key": "itemBlukBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemNanabBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemWeparBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemPinapBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    }
+  ],
+  "PokemonsNotToTransfer": [
+    "charizard",
+    "clefable",
+    "poliwrath",
+    "machamp",
+    "victreebel",
+    "golem",
+    "farfetchd",
+    "lickitung",
+    "kangaskhan",
+    "mrMime",
+    "gyarados",
+    "ditto",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "dragonite",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToEvolve": [
+    "caterpie",
+    "weedle",
+    "pidgey",
+    "rattata",
+    "spearow",
+    "zubat",
+    "doduo",
+    "goldeen",
+    "paras",
+    "ekans",
+    "staryu",
+    "psyduck",
+    "krabby",
+    "venonat"
+  ],
+  "PokemonsToIgnore": [
+    "rattata",
+    "spearow",
+    "zubat",
+    "doduo"
+  ],
+  "PokemonsTransferFilter": {
+    "Pidgeotto": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Fearow": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 2
+    },
+    "Zubat": {
+      "KeepMinCp": 500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 2
+    },
+    "Golbat": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 2
+    },
+    "Pinsir": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Golduck": {
+      "KeepMinCp": 1200,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Tentacruel": {
+      "KeepMinCp": 1350,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 2
+    },
+    "Starmie": {
+      "KeepMinCp": 1350,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 2
+    },
+    "Eevee": {
+      "KeepMinCp": 600,
+      "KeepMinIvPercentage": 85.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Gyarados": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Mew": {
+      "KeepMinCp": 0,
+      "KeepMinIvPercentage": 0.0,
+      "KeepMinDuplicatePokemon": 10
+    },
+    "Farfetchd": {
+      "KeepMinCp": 1000,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Krabby": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Kangaskhan": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 60.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Horsea": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Staryu": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "MrMime": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 40.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Scyther": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Jynx": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Electabuzz": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Magmar": {
+      "KeepMinCp": 1500,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Tauros": {
+      "KeepMinCp": 1250,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Magikarp": {
+      "KeepMinCp": 600,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Lapras": {
+      "KeepMinCp": 1800,
+      "KeepMinIvPercentage": 80.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Vaporeon": {
+      "KeepMinCp": 1700,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Jolteon": {
+      "KeepMinCp": 1700,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Flareon": {
+      "KeepMinCp": 1700,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Porygon": {
+      "KeepMinCp": 1400,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    },
+    "Snorlax": {
+      "KeepMinCp": 2000,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 4
+    },
+    "Dragonite": {
+      "KeepMinCp": 1700,
+      "KeepMinIvPercentage": 90.0,
+      "KeepMinDuplicatePokemon": 1
+    }
+  },
+  "PokemonToSnipe": {
+    "Locations": [
+      {
+        "Latitude": 34.243752598012833,
+        "Longitude": -83.846926689147935
+      },
+      {
+        "Latitude": 38.556807486461118,
+        "Longitude": -121.2383794784546
+      },
+      {
+        "Latitude": -33.859019,
+        "Longitude": 151.213098
+      },
+      {
+        "Latitude": 47.5014969,
+        "Longitude": -122.0959568
+      },
+      {
+        "Latitude": 51.5025343,
+        "Longitude": -0.2055027
+      }
+    ],
+    "Pokemon": [
+      "pikachu",
+      "venusaur",
+      "charizard",
+      "blastoise",
+      "beedrill",
+      "raichu",
+      "sandslash",
+      "nidoking",
+      "nidoqueen",
+      "clefable",
+      "ninetales",
+      "golbat",
+      "vileplume",
+      "golduck",
+      "primeape",
+      "arcanine",
+      "poliwrath",
+      "alakazam",
+      "machamp",
+      "golem",
+      "rapidash",
+      "slowbro",
+      "farfetchd",
+      "muk",
+      "cloyster",
+      "gengar",
+      "exeggutor",
+      "marowak",
+      "hitmonchan",
+      "lickitung",
+      "rhydon",
+      "chansey",
+      "kangaskhan",
+      "starmie",
+      "mrMime",
+      "scyther",
+      "magmar",
+      "electabuzz",
+      "magmar",
+      "jynx",
+      "gyarados",
+      "lapras",
+      "ditto",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "porygon",
+      "kabutops",
+      "aerodactyl",
+      "snorlax",
+      "articuno",
+      "zapdos",
+      "moltres",
+      "dragonite",
+      "mewtwo",
+      "mew"
+    ]
+  },
+  "PokemonToUseMasterball": [
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mew",
+    "mewtwo"
+  ]
+}
